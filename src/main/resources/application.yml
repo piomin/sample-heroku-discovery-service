@@ -4,7 +4,7 @@ spring:
       
 eureka:
   instance:
-    hostname: ${APP_NAME}.herokuapp.com
+    hostname: ${HEROKU_APP_NAME}.herokuapp.com
   client:
     registerWithEureka: false
     fetchRegistry: false
