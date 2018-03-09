@@ -4,7 +4,7 @@ spring:
       
 eureka:
   instance:
-    hostname: ${HEROKU_APP_NAME}.herokuapp.com
+    hostname: piomin-discovery-service.herokuapp.com
   client:
     registerWithEureka: false
     fetchRegistry: false
